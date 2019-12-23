@@ -5,5 +5,5 @@
 * 增强代码的可维护性
 通过上述作用，可以使**开发效率**和**维护效率**得到大幅提升。
 ### 1.2 Android需要命名的代码（对象）有哪些？
-![image](https://github.com/tianyalu/github-doc/blob/master/project_manager/android_code_standards/show/rename_objects.png)
+![image](https://github.com/tianyalu/github-doc/raw/master/project_manager/android_code_standards/show/rename_objects.png)
 
