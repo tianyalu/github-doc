@@ -5,7 +5,7 @@ git rebase -i HEAD~2
 ```
 该命令进入的操作界面是针对commit二不是commit Message的，仅可修改命令。  
 
-![image](https://github.com/tianyalu/github-doc/blob/master/git_command/git_rebase/rebase_multi_commit.png)
+![image](https://github.com/tianyalu/github-doc/blob/master/git_command/git_rebase/show/rebase_multi_commit.png)
 
 命令连用：  
 * `pick squash`连用：合并多次commit，显示编辑提交信息界面（列出多条commit Message供修改
