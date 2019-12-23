@@ -13,10 +13,12 @@
 ### 2.1 包命名
 * 基础规则：小写、单词间连续五间隔、反域名法（分为4级，具体如下图）  
 
-![image](https://github.com/tianyalu/github-doc/blob/master/project_manager/android_code_standards/show/package_name_standard.png?raw=true)    
+![image](https://github.com/tianyalu/github-doc/blob/master/project_manager/android_code_standards/show/package_name_standard.png?raw=true)  
+
 * 第4级包名会随着功能的不同而不同。下面列举一些常见&需要规范的4级功能包名  
 
 ![image](https://github.com/tianyalu/github-doc/blob/master/project_manager/android_code_standards/show/package_name.png?raw=true)  
+
 ### 2.2 类命名
 * 基础规则
     - 类型 = 名词 / 名词短语  
@@ -25,6 +27,7 @@
 * 在具体命名类时，会**根据该类的类型不同而附加额外的命名规则**。具体如下图所示：  
 
 ![image](https://github.com/tianyalu/github-doc/blob/master/project_manager/android_code_standards/show/class_name.png?raw=true)  
+
 ### 2.3 变量命名
 * 基础规则  
     - 类型 = 名词 / 名词短语  
@@ -33,6 +36,7 @@
 * 在具体命名变量时，会**根据该变量的类型不同而附加额外的命名规则**。具体如下图所示：  
 
 ![image](https://github.com/tianyalu/github-doc/blob/master/project_manager/android_code_standards/show/variable_name.png?raw=true)  
+
 ### 2.4 方法命名
 * 基础规则
     - 类型 = 动词 / 动词短语  
@@ -41,6 +45,7 @@
 * 在具体命名方法名时，会**根据该变量的类型不同而附加额外的命名规则**。具体如下图所示：  
 
 ![image](https://github.com/tianyalu/github-doc/blob/master/project_manager/android_code_standards/show/function_name.png?raw=true)  
+
 ### 2.5 参数名命名
 * 基础规则：驼峰形式中的**小驼峰写法**（`LowerCamelCase`）  
 > 即名称中的第一个词的首字母小写，后面每个词的首字母大写，如`androidStudioTool`  
