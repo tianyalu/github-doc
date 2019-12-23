@@ -5,3 +5,4 @@
 
 
 ## 二、项目管理相关
+### 2.1 [Android代码命名规范](https://github.com/tianyalu/github-doc/blob/master/project_manager/android_code_standards/README.md)
