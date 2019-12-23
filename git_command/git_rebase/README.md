@@ -5,7 +5,7 @@ git rebase -i HEAD~2
 ```
 该命令进入的操作界面是针对commit二不是commit Message的，仅可修改命令。  
 
-![image](https://github.com/tianyalu/github-doc/blob/master/git_command/git_rebase/show/rebase_multi_commit.png)
+![image](https://github.com/tianyalu/github-doc/raw/master/git_command/git_rebase/show/rebase_multi_commit.png)
 
 命令连用：  
 * `pick squash`连用：合并多次commit，显示编辑提交信息界面（列出多条commit Message供修改
@@ -17,7 +17,7 @@ git rebase -i HEAD~2
 ## 二、本地与远端同一分支提交历史不一致
 **场景：**  
 假如我和A在同一个分支`new`上开发，当我修复bug，打算`push`时，发现A已经提交过了，此时我`push`失败，只能先`pull`代码，解决冲突然后再次提交，此时会多出一个“分叉”，如下图所示：  
-![image](https://github.com/tianyalu/github-doc/blob/master/git_command/git_rebase/show/one_branch_merge.png)
+![image](https://github.com/tianyalu/github-doc/raw/master/git_command/git_rebase/show/one_branch_merge.png)
 
 采用`git rebase`：  
 ```bash
@@ -39,7 +39,7 @@ git rebase --continue
 git push
 ```
 此时的线路图就是一条直线，如下图所示：  
-![image](https://github.com/tianyalu/github-doc/blob/master/git_command/git_rebase/show/one_branch_rebase.png)
+![image](https://github.com/tianyalu/github-doc/raw/master/git_command/git_rebase/show/one_branch_rebase.png)
 
 
 ## 三、不同分支之间的合并
@@ -47,7 +47,7 @@ git push
 从dev分支拉出`feature`分支开发新的功能，开发完成后想合并到dev分支，此时有人已经`push`了新的内容到了dev上，我再合并分支必然失败，所以只能切换到dev分支执行`pull`命令拉取最新内容，然后进行合并操作。  
 如果采用`merge`命令合并，dev分支会保存合并历史，出现“分叉”，效果如下图所示：  
 
-![image](https://github.com/tianyalu/github-doc/blob/master/git_command/git_rebase/show/two_branch_merge.png)
+![image](https://github.com/tianyalu/github-doc/raw/master/git_command/git_rebase/show/two_branch_merge.png)
 
 采用`git rebase`： 
 切到dev分支并拉取最新代码：
@@ -78,6 +78,6 @@ git push
 ```
 此时的线路图就是一条直线，如下图所示：  
 
-![image](https://github.com/tianyalu/github-doc/blob/master/git_command/git_rebase/show/two_branch_rebase.png)
+![image](https://github.com/tianyalu/github-doc/raw/master/git_command/git_rebase/show/two_branch_rebase.png)
 
 
