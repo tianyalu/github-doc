@@ -17,7 +17,7 @@ git rebase -i HEAD~2
 ## 二、本地与远端同一分支提交历史不一致
 **场景：**  
 假如我和A在同一个分支`new`上开发，当我修复bug，打算`push`时，发现A已经提交过了，此时我`push`失败，只能先`pull`代码，解决冲突然后再次提交，此时会多出一个“分叉”，如下图所示：  
-![4142a21f6f2a2b75aaf56bd71777a266.png](evernotecid://F56AC6C6-8A58-4539-A2EC-9B91A02F1B29/appyinxiangcom/17862382/ENResource/p2518)
+![image](https://github.com/tianyalu/github-doc/blob/master/git_command/git_rebase/show/one_branch_merge.png)
 
 采用`git rebase`：  
 ```bash
@@ -39,7 +39,7 @@ git rebase --continue
 git push
 ```
 此时的线路图就是一条直线，如下图所示：  
-![cfc4b019c52e9761cde9aea0cb65f6ae.png](evernotecid://F56AC6C6-8A58-4539-A2EC-9B91A02F1B29/appyinxiangcom/17862382/ENResource/p2519)
+![image](https://github.com/tianyalu/github-doc/blob/master/git_command/git_rebase/show/one_branch_rebase.png)
 
 
 ## 三、不同分支之间的合并
@@ -47,7 +47,7 @@ git push
 从dev分支拉出`feature`分支开发新的功能，开发完成后想合并到dev分支，此时有人已经`push`了新的内容到了dev上，我再合并分支必然失败，所以只能切换到dev分支执行`pull`命令拉取最新内容，然后进行合并操作。  
 如果采用`merge`命令合并，dev分支会保存合并历史，出现“分叉”，效果如下图所示：  
 
-![7e6f6953f41757ed32b3cbb6fe389dc0.png](evernotecid://F56AC6C6-8A58-4539-A2EC-9B91A02F1B29/appyinxiangcom/17862382/ENResource/p2520)  
+![image](https://github.com/tianyalu/github-doc/blob/master/git_command/git_rebase/show/two_branch_merge.png)
 
 采用`git rebase`： 
 切到dev分支并拉取最新代码：
@@ -78,6 +78,6 @@ git push
 ```
 此时的线路图就是一条直线，如下图所示：  
 
-![0ba455698e78f010033feff7e5d86cfa.png](evernotecid://F56AC6C6-8A58-4539-A2EC-9B91A02F1B29/appyinxiangcom/17862382/ENResource/p2521)
+![image](https://github.com/tianyalu/github-doc/blob/master/git_command/git_rebase/show/two_branch_rebase.png)
 
 
