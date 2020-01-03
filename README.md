@@ -5,4 +5,8 @@
 
 
 ## 二、项目管理相关
-### 2.1 [Android代码命名规范](https://github.com/tianyalu/github-doc/blob/master/project_manager/android_code_standards/README.md)
+### 2.1 [Android代码命名规范](https://github.com/tianyalu/github-doc/blob/master/project_manager/android_code_standards/README.md)  
+
+## 三、技术文档
+### 3.1 [腾讯Tinker热更新](https://github.com/tianyalu/BuglyDemo)  
+### 3.2 [阿里云热更新](https://github.com/tianyalu/HotfixSophixDemo)  
