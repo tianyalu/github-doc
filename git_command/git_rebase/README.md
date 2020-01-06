@@ -35,6 +35,10 @@ git rebase -i HEAD~2
 * `pick fixup`连用：合并多次commit，不显示编辑提交信息界面（直接采用pick的那条commit message）  
 * `reword fixup`连用：合并多次commit，显示编辑提交信息界面（仅列出reword的那条commit Message供修改）  
 
+如果`rebase`之前，`commit`已经被`push`到远程仓库，则`rebase`之后需要强制推送到远程仓库：  
+```bash
+git push --force
+```
 
 ### 2.2 本地与远端同一分支提交历史不一致
 **场景：**  
