@@ -11,3 +11,6 @@
 ### 3.1 [腾讯Tinker热更新](https://github.com/tianyalu/BuglyDemo)  
 ### 3.2 [阿里云热更新](https://github.com/tianyalu/HotfixSophixDemo)  
 
+## 四、Android相关
+### 4.1 [Mac下环境变量详解](https://github.com/tianyalu/github-doc/tree/master/android/mac_environment.md)  
+### 4.2 [Mac命令行生成DEX文件](https://github.com/tianyalu/github-doc/blob/master/android/mac_generate_dex.md)
