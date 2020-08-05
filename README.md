@@ -14,3 +14,5 @@
 ## 四、Android相关
 ### 4.1 [Mac下环境变量详解](https://github.com/tianyalu/github-doc/tree/master/android/mac_environment.md)  
 ### 4.2 [Mac命令行生成DEX文件](https://github.com/tianyalu/github-doc/blob/master/android/mac_generate_dex.md)
+
+### 4.3 [MAC下逆向Android应用](https://github.com/tianyalu/github-doc/blob/master/android/apk_reverse/mac_apk_reverse.md)
