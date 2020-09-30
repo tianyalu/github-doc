@@ -20,4 +20,4 @@
 ### 5.1 [内置高德地图以及外链调起高德、百度、腾讯地图以及底部ActionSheet和动态权限申请](https://github.com/tianyalu/GMapNavigationDemo)  
 
 ## 六、其它
-### 6.1 [面试指南](https://github.com/tianyalu/github-doc/raw/master/interview/interview/README.md)
+### 6.1 [面试指南](https://github.com/tianyalu/github-doc/blob/master/interview/interview/README.md)
