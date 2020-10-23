@@ -21,3 +21,5 @@
 
 ## 六、其它
 ### 6.1 [面试指南](https://github.com/tianyalu/github-doc/blob/master/interview/interview/README.md)
+
+### 6.2 [简历](https://github.com/tianyalu/github-doc/blob/master/interview/resume/resume.md)
